@@ -1,0 +1,17 @@
+{
+  "id": "2026-05-16-009",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "url": "https://github.com/mem0ai/mem0",
+  "collected_at": "2026-05-16T09:29:59.221684+00:00",
+  "summary": "mem0 是一个为 AI Agent 设计的通用记忆层，提供持久化、可检索的上下文记忆能力。它支持多种后端（如向量数据库、文件系统），可无缝集成到 LangChain、AutoGPT 等框架中，帮助代理在对话、任务执行中保持对过去交互的长期记忆，提升连续性和个性化。",
+  "tags": [
+    "AI Agent",
+    "记忆层",
+    "持久化",
+    "上下文管理"
+  ],
+  "relevance_score": 0.85,
+  "category": "agent",
+  "key_insight": "为 AI Agent 提供通用、可扩展的记忆存储，解决长对话和任务中的遗忘问题，是增强代理自主性的关键基础设施。"
+}
