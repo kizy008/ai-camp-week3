@@ -3,16 +3,16 @@
   "title": "langchain-ai/langchain",
   "source": "github",
   "url": "https://github.com/langchain-ai/langchain",
-  "collected_at": "2026-05-16T09:29:59.221666+00:00",
-  "summary": "LangChain 是一个开源的智能体工程平台，提供模块化框架来构建基于大型语言模型（LLM）的应用程序。它支持链式调用（Chains）、代理（Agents）、检索增强生成（RAG）等功能，使开发者能够轻松集成多种数据源和工具，实现复杂的推理与行动循环。该平台强调可组合性和灵活性，广泛应用于聊天机器人、自动化工作流、知识问答等场景。",
+  "collected_at": "2026-05-16T09:35:12.990074+00:00",
+  "summary": "LangChain 是一个开源框架，用于构建基于大语言模型（LLM）的代理（Agent）工程平台。它提供模块化组件，支持提示管理、链式调用、代理循环、记忆系统及与多种工具和数据源的集成。其核心设计理念是“组合性”，通过抽象化 LLM 调用（支持多供应商切换）、工具使用和推理过程（如 ReAct 循环），使开发者能灵活搭建复杂逻辑。底层依赖 LCEL（LangChain Expression Language）实现声明式链式编排。广泛应用于问答、RAG、自动化工作流等场景。",
   "tags": [
-    "llm",
-    "agent",
-    "framework",
-    "rag",
-    "tool"
+    "大语言模型",
+    "智能体",
+    "框架",
+    "RAG",
+    "工具"
   ],
-  "relevance_score": 0.95,
+  "relevance_score": 0.9,
   "category": "framework",
-  "key_insight": "LangChain 通过统一的链式抽象和代理调度，降低了LLM应用开发的门槛，是连接人、模型与外部世界的核心工程平台。"
+  "key_insight": "通过模块化抽象和LCEL链式编排，将LLM与外部工具深度集成，实现可编程的智能代理逻辑；相对于Dify，学习曲线较陡但灵活性更高。"
 }

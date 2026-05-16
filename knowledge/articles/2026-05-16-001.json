@@ -3,14 +3,16 @@
   "title": "langgenius/dify",
   "source": "github",
   "url": "https://github.com/langgenius/dify",
-  "collected_at": "2026-05-16T09:29:59.221663+00:00",
-  "summary": "Dify 是一个生产就绪的开源平台，专注于智能体工作流（agentic workflow）的开发与部署。它提供了可视化的 LLM 应用编排、RAG 管道、工具集成和 Agent 管理功能，支持从原型到生产的快速迭代。用户可以通过拖拉拽方式构建复杂的 AI 工作流，并一键部署为 API 服务，适合企业级应用开发者。",
+  "collected_at": "2026-05-16T09:35:12.990071+00:00",
+  "summary": "Dify 是一个生产级开源平台，专注于智能体工作流开发，支持 LLM 编排、RAG、Agent 构建、工作流自动化等功能。其 RAG 策略支持向量检索、混合检索与重排序，提供可视化界面和 API 以降低 AI 应用开发门槛，适用于企业级场景。相比于 LangChain 的纯代码编排，Dify 更侧重直观的拖拽式工作流设计与开箱即用的部署能力，但在自定义复杂逻辑上灵活性稍弱。",
   "tags": [
-    "agentic workflow",
-    "LLM应用开发",
-    "低代码平台"
+    "AI平台",
+    "智能体工作流",
+    "开源",
+    "RAG",
+    "LLM编排"
   ],
-  "relevance_score": 0.85,
-  "category": "agent",
-  "key_insight": "Dify 降低了构建生产级智能体工作流的技术门槛，将复杂的 LLM 编排、RAG 与工具调用整合为可视化拖拽体验。"
+  "relevance_score": 0.9,
+  "category": "framework",
+  "key_insight": "可视化编排与多检索策略降低了企业级Agent构建门槛，但灵活性与深度定制能力不及LangChain。"
 }

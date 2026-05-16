@@ -3,17 +3,16 @@
   "title": "infiniflow/ragflow",
   "source": "github",
   "url": "https://github.com/infiniflow/ragflow",
-  "collected_at": "2026-05-16T09:29:59.221672+00:00",
-  "summary": "RAGFlow 是一个领先的开源检索增强生成（RAG）引擎，它将前沿的 RAG 技术与智能体（Agent）能力深度融合，旨在为大型语言模型（LLM）构建卓越的上下文层。该项目通过检索外部知识库并结合自主决策，显著提升了 LLM 在复杂任务中的准确性与适应性。",
+  "collected_at": "2026-05-16T09:35:12.990081+00:00",
+  "summary": "RAGFlow 是一个领先的开源检索增强生成（RAG）引擎，它将前沿的 RAG 技术与智能体（Agent）能力深度融合，为大型语言模型（LLM）构建了卓越的上下文层。其核心特点包括深度文档解析（支持PDF、DOCX、图像OCR）、多阶段检索（语义搜索+关键词混合）、以及可编排的Agent工作流，实现从文档理解到主动推理的闭环。相比Dify的RAG功能，RAGFlow更侧重文档处理深度与检索精度。",
   "tags": [
     "RAG",
-    "Agent",
-    "开源",
-    "LLM",
-    "知识检索",
-    "上下文工程"
+    "智能体",
+    "LLM上下文层",
+    "文档解析",
+    "开源"
   ],
-  "relevance_score": 0.92,
+  "relevance_score": 0.88,
   "category": "rag",
-  "key_insight": "通过将 RAG 与 Agent 能力结合，不仅增强了 LLM 的上下文理解，还实现了主动式知识检索和任务决策，开辟了 RAG 系统的新范式。"
+  "key_insight": "通过将智能体编排与检索增强生成深度耦合，RAGFlow 突破了传统 RAG 的被动检索模式，实现主动推理与上下文构建的无缝融合，在文档理解深度上优于Dify等通用平台。"
 }

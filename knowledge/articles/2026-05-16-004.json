@@ -3,15 +3,16 @@
   "title": "browser-use/browser-use",
   "source": "github",
   "url": "https://github.com/browser-use/browser-use",
-  "collected_at": "2026-05-16T09:29:59.221670+00:00",
-  "summary": "browser-use 是一个开源工具，旨在让AI代理能够直接访问和操作网页，实现自动化在线任务。它提供了一个统一的接口，使得AI可以像人类一样浏览、点击、填写表单等，从而扩展了AI在网页交互上的应用能力。",
+  "collected_at": "2026-05-16T09:35:12.990078+00:00",
+  "summary": "browser-use是一个让AI代理能够像人类一样操作浏览器的开源工具。它基于Playwright/Puppeteer等底层驱动，提供一套接口使大语言模型可以加载网页、点击按钮、填写表单、提取信息等，从而自动化各种在线任务。核心实现通过将浏览器DOM操作抽象为动作序列，由LLM决策并逐步执行。项目弥合了AI与真实Web应用之间的鸿沟，让Agent具备更强的互联网操控能力。",
   "tags": [
-    "AI agent",
+    "AI智能体",
     "浏览器自动化",
-    "网页交互",
-    "自动化工具"
+    "Web交互",
+    "大语言模型",
+    "任务自动化"
   ],
   "relevance_score": 0.85,
   "category": "tool",
-  "key_insight": "通过将浏览器操作标准化为API，browser-use 使AI代理能自主执行网页任务，降低了传统爬虫和自动化脚本的维护成本。"
+  "key_insight": "将浏览器作为AI Agent的通用交互界面，基于底层自动化引擎实现可编程的Web操作，使LLM能执行复杂的在线任务。"
 }
